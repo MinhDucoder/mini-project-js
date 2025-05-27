@@ -5,7 +5,7 @@ const HomePage = () => `
   ${Header()}
   <div class="container">
     <h1>HomePage Page</h1>
-    <div class="product-list">Đang tải sản phẩm...</div> <!-- giữ chỗ -->
+    <div id="productList">Đang tải sản phẩm...</div> <!-- giữ chỗ -->
   </div>
   ${Footer()}
 `;

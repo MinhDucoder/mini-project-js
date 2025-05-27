@@ -25,13 +25,16 @@ router.on("/", () => render(app, HomePage()), {
         const contentHTML = products.map(product => `
           <div class="product-card">
             <img src="${product.thumbnail}" alt="${product.title}">
-            <h3>${product.title}</h3>
-            <p>Giá: ${product.price}</p>
-            <div>${product.description}</div>
+            <div class="product-infor">
+              <h3>${product.title}</h3>
+              <p>Giá: ${product.price}$</p>
+              <div>${product.description}</div>
+            </div>
           </div>
         `).join('');
 
-        const list = document.querySelector(".product-list");
+
+        const list = document.getElementById("productList");
         if (list) list.innerHTML = contentHTML;
       })
       .catch(error => {
