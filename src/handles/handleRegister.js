@@ -10,7 +10,7 @@ function handleRegister() {
     btn.addEventListener('click', Register);
   }
 }
-
+  
 async function Register() {
   const email = document.getElementById('email').value.trim();
   const password = document.getElementById('password').value;
@@ -26,14 +26,15 @@ async function Register() {
 
   try {
     const res = await api.post('/register', {
-      email: user.email,
-      password: user.password
+      ...user,
+      role:"admin",
+      phone:"",
+      address:""
     });
 
     console.log("Đăng ký thành công:", res.data);
     alert("Đăng ký thành công!");
 
-    
     sessionStorage.setItem("user", JSON.stringify(res.data));
 
     router.navigate('/login')

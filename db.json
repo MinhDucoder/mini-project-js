@@ -26,6 +26,30 @@
       "email": "a@gmail.com",
       "password": "$2a$10$fFXGqMnzUAw3gcGqpSbdQuP20H9BvnX03KjvdIH56whnpmn5eHP7q",
       "id": "E8tcJsQ"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "$2a$10$MbTjZHKY5rlea/8.adz.7Oerf8rpwy.VFhomGn0d00OBy./ykNDNW",
+      "id": "nQ4pTGz"
+    },
+    {
+      "email": "a1bc@gmail.com",
+      "password": "$2a$10$xWe9L.2.tj7hZkFXsdpd8epCs8ASmAOSo0P3IDWO0OCV6G8rLBSiW",
+      "id": "R7p3oAV"
+    },
+    {
+      "email": "a11@gmail.com",
+      "password": "$2a$10$UNSPDCsMSwluVXjAm2.hwOQ8RK.BxBgBsRbFInsePsKxSjB6ad3Zu",
+      "id": "pBGxcSM"
+    },
+    {
+      "email": "a111@gmail.com",
+      "password": "$2a$10$UJHFF96Hs7BeMGysJMIb3OcggNIDgKFa.bsLxHetEAQL0qYeuyBIu",
+      "confirmPass": "123123",
+      "role": "admin",
+      "phone": "",
+      "address": "",
+      "id": "0KI-hoR"
     }
   ],
   "products": [
