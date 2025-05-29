@@ -1,9 +1,13 @@
 {
   "users": [
     {
+      "email":"abcabc@gmail.comcom",
+      "password":"123123"
+    },
+    {
       "id": "0bb8",
       "email": "nguyenminhduc@gmail.com",
-      "password": "123456",
+      "password": "$2a$10$UNSPDCsMSwluVXjAm2.hwOQ8RK.BxBgBsRbFInsePsKxSjB6ad3Zu",
       "username": "Pro-MinhDuc"
     },
     {
@@ -50,6 +54,24 @@
       "phone": "",
       "address": "",
       "id": "0KI-hoR"
+    },
+    {
+      "email": "c@gmail.com",
+      "password": "$2a$10$9Nqg006c3RrAuR7txj5uaeKvCMwxsJpKeaAEJpZljpOubLz6Rda6O",
+      "confirmPass": "123123",
+      "role": "admin",
+      "phone": "",
+      "address": "",
+      "id": "xjALLBx"
+    },
+    {
+      "email": "m@gmail.com",
+      "password": "$2a$10$QuRY7F7Nuz4Ay8Xq54l/RuJW/dz4GLyMbkKnvwoh1ghTSDBLoHQCi",
+      "confirmPass": "123123",
+      "role": "admin",
+      "phone": "",
+      "address": "",
+      "id": "qg48lvL"
     }
   ],
   "products": [
@@ -1860,6 +1882,12 @@
       "title": "product 01",
       "price": 100,
       "description": "mo ta san pham"
+    },
+    {
+      "title": "product 01",
+      "price": 100,
+      "description": "mo ta san pham",
+      "id": "mHqrLcC"
     }
   ]
 }
